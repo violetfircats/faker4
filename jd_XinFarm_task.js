@@ -13,7 +13,7 @@ jd_XinFarm_waternum // 浇水次数，默认 10次  自行修改
 jd_XinFarm_retainWater  // 快速浇水，默认不开启（有水滴门槛，满足要求后开启才会生效）
 jd_XinFarm_Notify // 是否推送通知（true/false），默认不推送
 
-cron:45 2-22/6 * * *
+cron:0 50 8,19 * * ? 
 
 */
 
